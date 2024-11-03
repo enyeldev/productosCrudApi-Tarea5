@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "ProdcutosCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Program.cs",
+              "RelativeToolTip": "ProdcutosCRUD\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:06:31.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProdcutosCRUD\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProdcutosCRUD\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:06:17.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAiwD4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T04:16:42.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
