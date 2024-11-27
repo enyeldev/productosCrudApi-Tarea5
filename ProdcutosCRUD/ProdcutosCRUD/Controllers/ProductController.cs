@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProdcutosCRUD.Data;
-using ProdcutosCRUD.Models.Entities;
-using ProdcutosCRUD.Models.Request;
+using ProdcutosCRUD.Common.Request;
+using ProductoCRUD.Common.Dtos;
+using ProductosCRUD.Infrastructure.Interfaces;
+using ProductosCRUD.Infrastructure.Repositories;
 
 namespace ProdcutosCRUD.Controllers
 {
@@ -11,18 +11,18 @@ namespace ProdcutosCRUD.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly ProductoCrudDbContext _context;
+        private readonly IProductRepository _repo;
 
-        public ProductController(ProductoCrudDbContext context)
+        public ProductController(IProductRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
 
         [HttpGet("GetAllProducts")]
-        public async Task<ActionResult<List<Product>>> GetAllProducts()
+        public async Task<ActionResult<List<ProductDto>>> GetAllProducts()
         {
-            return await _context.Products.Where(e => e.IsDeleted == false).ToListAsync();
+            return await _repo.GetProducts();
         }
 
         [HttpPost("CreateNewProduct")]
@@ -30,62 +30,43 @@ namespace ProdcutosCRUD.Controllers
         {
             if (request.Name == "" || request.Price == 0 || request.Stock == 0)
             {
-                return BadRequest(new {msg = "Todos los campos son requeridos" });
+                return BadRequest(new { msg = "Todos los campos son requeridos" });
             }
 
-            var newProduct = new Product();
+             await _repo.CreateNewProduct(request);
 
-            newProduct.Name = request.Name;
-            newProduct.Price = request.Price;
-            newProduct.Stock = request.Stock;
-            newProduct.CategoryId = request.CategoryId;
-
-            _context.Products.Add(newProduct);
-            await _context.SaveChangesAsync();
-
-            return Ok(new {msg = "Nuevo producto agregado" });
+            return Ok(new { msg = "Nuevo producto agregado" });
         }
 
         [HttpPut("EditProduct/{id:int}")]
         public async Task<ActionResult> EditProduct(int id, EditProductRequest request)
         {
-
-            var editedProduct = await _context.Products.FirstAsync(e => e.Id == id);
+            var editedProduct = await _repo.GetProduct(id);
 
             if (editedProduct is null)
             {
-                return NotFound(new {msg = "No existe ese producto" });
+                return NotFound(new { msg = "No existe ese producto" });
             };
 
-
-            editedProduct.Name = request.Name;
-            editedProduct.Price = request.Price;
-            editedProduct.Stock = request.Stock;
-            editedProduct.CategoryId = request.CategoryId;
-
-            _context.Products.Update(editedProduct);
-
-            await _context.SaveChangesAsync();
-
-            return Ok(new {msg = "Producto actualizado correctamente" });
+            await _repo.UpdateProduct(editedProduct, request);
+            
+            return Ok(new { msg = "Producto actualizado correctamente" });
 
         }
 
         [HttpDelete("DeleteProduct/{id:int}")]
         public async Task<ActionResult> DeleteProduct(int id)
         {
-            var deltedProduct = await _context.Products.FirstAsync(e => e.Id == id);
+            var deltedProduct = await _repo.GetProduct(id);
 
             if (deltedProduct is null)
             {
-                return NotFound(new {msg = "No existe ese producto" });
+                return NotFound(new { msg = "No existe ese producto" });
             }
 
-            deltedProduct.IsDeleted = true;
-            _context.Products.Update(deltedProduct);
+            await _repo.DeleteProduct(deltedProduct);
 
-            await _context.SaveChangesAsync();
-            return Ok(new {msg = "Producto elimiando correctamente" });
+            return Ok(new { msg = "Producto elimiando correctamente" });
         }
 
     }

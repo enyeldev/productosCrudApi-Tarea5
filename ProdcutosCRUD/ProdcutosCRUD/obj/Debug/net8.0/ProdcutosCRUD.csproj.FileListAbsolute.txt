@@ -125,7 +125,6 @@ C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\Prod
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.AssemblyInfoInputs.cache
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.AssemblyInfo.cs
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.csproj.CoreCompileInputs.cache
-C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.sourcelink.json
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\staticwebassets.build.json
@@ -142,3 +141,13 @@ C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\Prod
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.pdb
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.genruntimeconfig.cache
 C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ref\ProdcutosCRUD.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductoCRUD.Persistence.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductosCRUD.Domain.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductoCRUD.Persistence.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductosCRUD.Domain.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductoCRUD.Common.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductosCRUD.Infrastructure.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductoCRUD.Common.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\ProductosCRUD.Infrastructure.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\obj\Debug\net8.0\ProdcutosCRUD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProdcutosCRUD\bin\Debug\net8.0\AutoMapper.dll

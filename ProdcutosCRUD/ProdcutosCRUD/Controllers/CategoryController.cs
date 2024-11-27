@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProdcutosCRUD.Data;
-using ProdcutosCRUD.Models.Entities;
-using ProdcutosCRUD.Models.Request;
+using ProdcutosCRUD.Common.Request;
+using ProductoCRUD.Common.Dtos;
+using ProductosCRUD.Infrastructure.Interfaces;
+
 
 namespace ProdcutosCRUD.Controllers
 {
@@ -10,18 +10,18 @@ namespace ProdcutosCRUD.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ProductoCrudDbContext _context;
+        private readonly ICategoryRepository _repo;
 
-        public CategoryController(ProductoCrudDbContext context)
+        public CategoryController(ICategoryRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
 
         [HttpGet("GetAllCategories")]
-        public async Task<ActionResult<List<Category>>> GetAllCategories()
+        public async Task<ActionResult<List<CategoryDto>>> GetAllCategories()
         {
-            return await _context.Categories.Where(e => e.IsDeleted == false).ToListAsync();
+            return await _repo.GetCategories();
         }
 
         [HttpPost("CreateCategory")]
@@ -32,13 +32,7 @@ namespace ProdcutosCRUD.Controllers
                 return BadRequest("Todos los campos son requeridos");
             }
 
-            var category = new Category();
-
-            category.Name = request.Name;
-
-             _context.Categories.Add(category);
-
-            await _context.SaveChangesAsync();
+            await _repo.CreateNewCategory(request);
 
             return Ok(new { msg = "Nueva categoria agregada" });
         }
@@ -47,7 +41,7 @@ namespace ProdcutosCRUD.Controllers
         public async Task<ActionResult> EditCategory(int id, EditCategoryRequest request)
         {
 
-            var categoryExist = await _context.Categories.FirstAsync(e => e.Id == id);
+            var categoryExist = await _repo.GetCategory(id);
 
             if (categoryExist is null)
             {
@@ -59,10 +53,7 @@ namespace ProdcutosCRUD.Controllers
                 return BadRequest(new {msg = "Todos los campos son requeridos" });
             }
 
-            categoryExist.Name = request.Name;
-
-            _context.Categories.Update(categoryExist);
-            await _context.SaveChangesAsync();
+            await _repo.UpdateCategory(categoryExist, request);
 
             return Ok(new {msg = "Categoria editada correctamente" });
         }
@@ -70,18 +61,14 @@ namespace ProdcutosCRUD.Controllers
         [HttpDelete("DeleteCategory/{id:int}")]
         public async Task<ActionResult> DeleteCategory(int id)
         {
-            var categoryDelted = await _context.Categories.FirstAsync(cat => cat.Id == id);
+            var categoryDelted = await _repo.GetCategory(id);
 
             if (categoryDelted is null)
             {
                 return NotFound("No existe esa categoria");
             }
 
-            categoryDelted.IsDeleted = true;
-
-            _context.Categories.Update(categoryDelted);
-
-            await _context.SaveChangesAsync();
+            await _repo.DeleteCategory(categoryDelted);
 
             return Ok(new {msg = "Categoria eliminada" });
         }

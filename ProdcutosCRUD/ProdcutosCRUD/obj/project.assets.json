@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1544,10 +1560,83 @@
             "rid": "win"
           }
         }
+      },
+      "ProductoCRUD.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ProductoCRUD.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductoCRUD.Common.dll": {}
+        }
+      },
+      "ProductoCRUD.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "ProductosCRUD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductoCRUD.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductoCRUD.Persistence.dll": {}
+        }
+      },
+      "ProductosCRUD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ProductosCRUD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductosCRUD.Domain.dll": {}
+        }
+      },
+      "ProductosCRUD.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "ProductoCRUD.Common": "1.0.0",
+          "ProductoCRUD.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductosCRUD.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductosCRUD.Infrastructure.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -4165,14 +4254,38 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ProductoCRUD.Common/1.0.0": {
+      "type": "project",
+      "path": "../ProductoCRUD.Common/ProductoCRUD.Common.csproj",
+      "msbuildProject": "../ProductoCRUD.Common/ProductoCRUD.Common.csproj"
+    },
+    "ProductoCRUD.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../ProductoCRUD.Persistence/ProductoCRUD.Persistence.csproj",
+      "msbuildProject": "../ProductoCRUD.Persistence/ProductoCRUD.Persistence.csproj"
+    },
+    "ProductosCRUD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProductosCRUD.Domain/ProductosCRUD.Domain.csproj",
+      "msbuildProject": "../ProductosCRUD.Domain/ProductosCRUD.Domain.csproj"
+    },
+    "ProductosCRUD.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ProductosCRUD.Infrastructure/ProductosCRUD.Infrastructure.csproj",
+      "msbuildProject": "../ProductosCRUD.Infrastructure/ProductosCRUD.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.10",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
+      "ProductoCRUD.Common >= 1.0.0",
+      "ProductoCRUD.Persistence >= 1.0.0",
+      "ProductosCRUD.Domain >= 1.0.0",
+      "ProductosCRUD.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4208,7 +4321,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductoCRUD.Common\\ProductoCRUD.Common.csproj": {
+              "projectPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductoCRUD.Common\\ProductoCRUD.Common.csproj"
+            },
+            "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductoCRUD.Persistence\\ProductoCRUD.Persistence.csproj": {
+              "projectPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductoCRUD.Persistence\\ProductoCRUD.Persistence.csproj"
+            },
+            "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Domain\\ProductosCRUD.Domain.csproj": {
+              "projectPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Domain\\ProductosCRUD.Domain.csproj"
+            },
+            "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4226,15 +4352,15 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.10, )"
           },
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.10, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.10, )"
           },

@@ -1,0 +1,13 @@
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\bin\Debug\net8.0\ProductoCRUD.Common.deps.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\bin\Debug\net8.0\ProductoCRUD.Common.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\bin\Debug\net8.0\ProductoCRUD.Common.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.AssemblyInfoInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.AssemblyInfo.cs
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.csproj.CoreCompileInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.sourcelink.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\refint\ProductoCRUD.Common.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ref\ProductoCRUD.Common.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Common\obj\Debug\net8.0\ProductoCRUD.Common.csproj.AssemblyReference.cache

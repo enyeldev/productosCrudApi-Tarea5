@@ -1,0 +1,16 @@
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.csproj.AssemblyReference.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.AssemblyInfoInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.AssemblyInfo.cs
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.sourcelink.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\bin\Debug\net8.0\ProductoCRUD.Persistence.deps.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\bin\Debug\net8.0\ProductoCRUD.Persistence.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\bin\Debug\net8.0\ProductoCRUD.Persistence.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\bin\Debug\net8.0\ProductosCRUD.Domain.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\bin\Debug\net8.0\ProductosCRUD.Domain.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\Producto.6CEFB9B4.Up2Date
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\refint\ProductoCRUD.Persistence.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ProductoCRUD.Persistence.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductoCRUD.Persistence\obj\Debug\net8.0\ref\ProductoCRUD.Persistence.dll

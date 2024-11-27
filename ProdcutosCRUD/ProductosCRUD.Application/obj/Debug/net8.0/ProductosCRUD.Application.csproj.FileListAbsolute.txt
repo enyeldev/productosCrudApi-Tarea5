@@ -1,0 +1,12 @@
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\bin\Debug\net8.0\ProductosCRUD.Application.deps.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\bin\Debug\net8.0\ProductosCRUD.Application.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\bin\Debug\net8.0\ProductosCRUD.Application.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.AssemblyInfoInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.AssemblyInfo.cs
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.csproj.CoreCompileInputs.cache
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.sourcelink.json
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\refint\ProductosCRUD.Application.dll
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ProductosCRUD.Application.pdb
+C:\Users\medra\Documents\Clases\C-5\Programacion II\productosCrudApi-Tarea5\ProdcutosCRUD\ProductosCRUD.Application\obj\Debug\net8.0\ref\ProductosCRUD.Application.dll
