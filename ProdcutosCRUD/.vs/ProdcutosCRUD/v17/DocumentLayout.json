@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\productoscrud.infrastructure\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|solutionrelative:productoscrud.infrastructure\\mappers\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C134F4E-CD99-47BC-8CE0-C72A0423CC4B}|ProductosCRUD.Application\\ProductosCRUD.Application.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\productoscrud.application\\interfaces\\iproductservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C134F4E-CD99-47BC-8CE0-C72A0423CC4B}|ProductosCRUD.Application\\ProductosCRUD.Application.csproj|solutionrelative:productoscrud.application\\interfaces\\iproductservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\productoscrud.infrastructure\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|solutionrelative:productoscrud.infrastructure\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C134F4E-CD99-47BC-8CE0-C72A0423CC4B}|ProductosCRUD.Application\\ProductosCRUD.Application.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\productoscrud.application\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C134F4E-CD99-47BC-8CE0-C72A0423CC4B}|ProductosCRUD.Application\\ProductosCRUD.Application.csproj|solutionrelative:productoscrud.application\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\productoscrud.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{678A4586-D137-4FB0-AD97-B7F7D6445C52}|ProductosCRUD.Infrastructure\\ProductosCRUD.Infrastructure.csproj|solutionrelative:productoscrud.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|c:\\users\\medra\\documents\\clases\\c-5\\programacion ii\\productoscrudapi-tarea5\\prodcutoscrud\\prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEBF2D8-BA31-42EF-A7D3-AC20A58B5FB0}|ProdcutosCRUD\\ProdcutosCRUD.csproj|solutionrelative:prodcutoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Program.cs",
               "RelativeDocumentMoniker": "ProdcutosCRUD\\Program.cs",
               "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Program.cs",
               "RelativeToolTip": "ProdcutosCRUD\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBUAAABHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:14:00.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ProdcutosCRUD\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ProdcutosCRUD\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:13:26.451Z",
+              "WhenOpened": "2024-12-06T20:01:12.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Mappers\\ProductoMapper.cs",
-              "RelativeDocumentMoniker": "ProductosCRUD.Infrastructure\\Mappers\\ProductoMapper.cs",
-              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Mappers\\ProductoMapper.cs",
-              "RelativeToolTip": "ProductosCRUD.Infrastructure\\Mappers\\ProductoMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Application\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "ProductosCRUD.Application\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Application\\Services\\ProductServices.cs",
+              "RelativeToolTip": "ProductosCRUD.Application\\Services\\ProductServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:04:55.817Z",
+              "WhenOpened": "2024-12-06T19:46:26.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductosCRUD.Infrastructure\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "ProductosCRUD.Infrastructure\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "DocumentIndex": 1,
+              "Title": "IProductServies.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Application\\Interfaces\\IProductServies.cs",
+              "RelativeDocumentMoniker": "ProductosCRUD.Application\\Interfaces\\IProductServies.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Application\\Interfaces\\IProductServies.cs",
+              "RelativeToolTip": "ProductosCRUD.Application\\Interfaces\\IProductServies.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:03:21.92Z",
+              "WhenOpened": "2024-12-06T19:43:51.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductosCRUD.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProductosCRUD.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ProductosCRUD.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAcwE4AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\medra\\Documents\\Clases\\C-5\\Programacion II\\productosCrudApi-Tarea5\\ProdcutosCRUD\\ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProdcutosCRUD\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:02:38.055Z",
+              "WhenOpened": "2024-12-06T19:43:18.093Z",
               "EditorCaption": ""
             }
           ]

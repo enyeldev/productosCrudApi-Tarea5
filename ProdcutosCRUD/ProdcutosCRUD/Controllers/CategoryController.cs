@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProdcutosCRUD.Common.Request;
 using ProductoCRUD.Common.Dtos;
-using ProductosCRUD.Infrastructure.Interfaces;
+using ProductoCRUD.Common.Response;
+using ProductosCRUD.Application.Interfaces;
 
 
 namespace ProdcutosCRUD.Controllers
@@ -10,67 +11,36 @@ namespace ProdcutosCRUD.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ICategoryRepository _repo;
+        private readonly ICategoryServices _services;
 
-        public CategoryController(ICategoryRepository repo)
+        public CategoryController(ICategoryServices services)
         {
-            _repo = repo;
+            _services = services;
         }
 
 
         [HttpGet("GetAllCategories")]
-        public async Task<ActionResult<List<CategoryDto>>> GetAllCategories()
+        public async Task<ActionResult<Response<List<CategoryDto>>>> GetAllCategories()
         {
-            return await _repo.GetCategories();
+            return await _services.GetAllCategories();
         }
 
         [HttpPost("CreateCategory")]
-        public async Task<ActionResult> CreateCategory(CreateCategoryRequest request)
+        public async Task<ActionResult<Response<CategoryDto>>> CreateCategory(CreateCategoryRequest request)
         {
-            if (request.Name.Equals(""))
-            {
-                return BadRequest("Todos los campos son requeridos");
-            }
-
-            await _repo.CreateNewCategory(request);
-
-            return Ok(new { msg = "Nueva categoria agregada" });
+            return await _services.CreateCategory(request);
         }
 
         [HttpPut("EditCategory/{id:int}")]
-        public async Task<ActionResult> EditCategory(int id, EditCategoryRequest request)
+        public async Task<ActionResult<Response<CategoryDto>>> EditCategory(int id, EditCategoryRequest request)
         {
-
-            var categoryExist = await _repo.GetCategory(id);
-
-            if (categoryExist is null)
-            {
-                return BadRequest(new { msg = "No existe esa categoria" });
-            }
-
-            if (request.Name.Equals(""))
-            {
-                return BadRequest(new {msg = "Todos los campos son requeridos" });
-            }
-
-            await _repo.UpdateCategory(categoryExist, request);
-
-            return Ok(new {msg = "Categoria editada correctamente" });
+          return await _services.EditCategory( id,request);
         }
 
         [HttpDelete("DeleteCategory/{id:int}")]
-        public async Task<ActionResult> DeleteCategory(int id)
+        public async Task<ActionResult<Response<CategoryDto>>> DeleteCategory(int id)
         {
-            var categoryDelted = await _repo.GetCategory(id);
-
-            if (categoryDelted is null)
-            {
-                return NotFound("No existe esa categoria");
-            }
-
-            await _repo.DeleteCategory(categoryDelted);
-
-            return Ok(new {msg = "Categoria eliminada" });
+            return await  _services.DeleteCategory(id);
         }
     }
 }

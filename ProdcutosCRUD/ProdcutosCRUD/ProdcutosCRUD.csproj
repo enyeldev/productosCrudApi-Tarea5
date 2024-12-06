@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ProductoCRUD.Common\ProductoCRUD.Common.csproj" />
     <ProjectReference Include="..\ProductoCRUD.Persistence\ProductoCRUD.Persistence.csproj" />
+    <ProjectReference Include="..\ProductosCRUD.Application\ProductosCRUD.Application.csproj" />
     <ProjectReference Include="..\ProductosCRUD.Domain\ProductosCRUD.Domain.csproj" />
     <ProjectReference Include="..\ProductosCRUD.Infrastructure\ProductosCRUD.Infrastructure.csproj" />
   </ItemGroup>

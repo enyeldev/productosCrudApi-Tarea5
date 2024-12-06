@@ -1,15 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using ProductosCRUD.Domain.Core;
 
 
 namespace ProdcutosCRUD.Domain.Entities
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-
+        
         public string Name { get; set; } = "";
 
         public int Stock { get; set; }

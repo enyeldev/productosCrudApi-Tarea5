@@ -10,4 +10,9 @@
     <PackageReference Include="AutoMapper" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProductoCRUD.Common\ProductoCRUD.Common.csproj" />
+    <ProjectReference Include="..\ProductosCRUD.Infrastructure\ProductosCRUD.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProdcutosCRUD.Common.Request;
 using ProductoCRUD.Common.Dtos;
-using ProductosCRUD.Infrastructure.Interfaces;
-using ProductosCRUD.Infrastructure.Repositories;
+using ProductoCRUD.Common.Response;
+using ProductosCRUD.Application.Interfaces;
+
 
 namespace ProdcutosCRUD.Controllers
 {
@@ -11,62 +12,37 @@ namespace ProdcutosCRUD.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly IProductRepository _repo;
+        private readonly IProductServies _services;
 
-        public ProductController(IProductRepository repo)
+        public ProductController(IProductServies services)
         {
-            _repo = repo;
+            _services = services;
         }
 
 
         [HttpGet("GetAllProducts")]
-        public async Task<ActionResult<List<ProductDto>>> GetAllProducts()
+        public async Task<ActionResult<Response<List<ProductDto>>>> GetAllProducts()
         {
-            return await _repo.GetProducts();
+            return await _services.GetAllProducts();
         }
 
         [HttpPost("CreateNewProduct")]
-        public async Task<ActionResult> CreateNewProduct(CreateNewProductRequest request)
+        public async Task<ActionResult<Response<ProductDto>>> CreateNewProduct(CreateNewProductRequest request)
         {
-            if (request.Name == "" || request.Price == 0 || request.Stock == 0)
-            {
-                return BadRequest(new { msg = "Todos los campos son requeridos" });
-            }
-
-             await _repo.CreateNewProduct(request);
-
-            return Ok(new { msg = "Nuevo producto agregado" });
+            return await _services.CreateNewProduct(request);
         }
 
         [HttpPut("EditProduct/{id:int}")]
-        public async Task<ActionResult> EditProduct(int id, EditProductRequest request)
+        public async Task<ActionResult<Response<ProductDto>>> EditProduct(int id, EditProductRequest request)
         {
-            var editedProduct = await _repo.GetProduct(id);
-
-            if (editedProduct is null)
-            {
-                return NotFound(new { msg = "No existe ese producto" });
-            };
-
-            await _repo.UpdateProduct(editedProduct, request);
-            
-            return Ok(new { msg = "Producto actualizado correctamente" });
+            return await _services.EditProduct(id, request);
 
         }
 
         [HttpDelete("DeleteProduct/{id:int}")]
-        public async Task<ActionResult> DeleteProduct(int id)
+        public async Task<ActionResult<Response<ProductDto>>> DeleteProduct(int id)
         {
-            var deltedProduct = await _repo.GetProduct(id);
-
-            if (deltedProduct is null)
-            {
-                return NotFound(new { msg = "No existe ese producto" });
-            }
-
-            await _repo.DeleteProduct(deltedProduct);
-
-            return Ok(new { msg = "Producto elimiando correctamente" });
+            return await _services.DeleteProduct(id);
         }
 
     }

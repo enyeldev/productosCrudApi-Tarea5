@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProdcutosCRUD.Persistence;
+using ProductosCRUD.Application.Interfaces;
+using ProductosCRUD.Application.Services;
 using ProductosCRUD.Infrastructure.Interfaces;
 using ProductosCRUD.Infrastructure.Mappers;
 using ProductosCRUD.Infrastructure.Repositories;
@@ -18,8 +20,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ProductoCrudDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConectionStr")));
 
 // Add The Repositries
-builder.Services.AddTransient<ICategoryRepository,CategoryRepository>();
-builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+builder.Services.AddScoped<IProductServies, ProductServices>();
+
 
 builder.Services.AddCors(option =>
 {
